@@ -1,0 +1,27 @@
+{
+  "name": "module1",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "main.js",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "concurrently": "^7.1.0",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "serve": "^13.0.2",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "build": "webpack",
+    "webpack": "webpack --watch",
+    "serve": "serve dist -p 1337",
+    "start": "concurrently \"npm run webpack\" \"npm run serve\""
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
