@@ -2,6 +2,12 @@
 
 Source code of a remote module using [Webpack Module Federation](https://webpack.js.org/concepts/module-federation/) which is meant to be served locally to override the one used in a production app example.
 
+
+
+https://user-images.githubusercontent.com/6340490/164746938-9325b039-9a87-4d46-a0a9-796c819adb3f.mov
+
+
+
 ## Motivations
 
 It allows your developers/customers to develop remote modules locally without having to onboard them on your architecture and install it on their local machine. It can be also helpful to debug on a production/preproduction environment
